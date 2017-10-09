@@ -10,7 +10,7 @@ public class PlayerScript : MonoBehaviour {
     public float ProjectileSpeed = 0.5f;
     public bool isShooting = true;
 
-    float maximumXPosition = 25.0f;
+    float maximumXPosition = 20.0f;
 
 	void Start () {
         StartCoroutine(projectileShooterTimer());
